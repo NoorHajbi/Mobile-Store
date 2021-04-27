@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+   
+}
+header {
+    background-color: WhiteSmoke;
+    height: 4em;
+
+}
+h1{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+    font-size:25pt;
+    top: 10px;
+}
+.formSection, .tableSection{
+    position: absolute;
+    height: 15em;
+    width: 25em;
+    background-color: RGBA(211, 211, 211, 0.548);
+    margin: 40px;
+}
+.formSection{
+    left: 100px;
+}
+.tableSection{
+ 
+    right:100px;
+}
+form, table{
+    margin: 30px;
+}
+table{
+    border-collapse: collapse;
+    color: whitesmoke;
+    /* border: 2px solid whitesmoke; */
+}
+td {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+       
+}
+tr{
+    background-color: rgb(78, 78, 78); 
+}
+footer{
+    position: absolute;
+    font-family: 'Courgette', cursive;
+    padding:20px;
+    background-color: WhiteSmoke;
+    height: 4em;
+    width: 100%;
+    top: 35em;
+}
+#submit, tr:first-child {
+    background-color:rgb(39, 39, 39);
+    color: whitesmoke;
+}
+form input , form select{
+    border-radius: 10px;
+    width: 13em;
+    height: 2em;
+}
